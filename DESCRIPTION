@@ -11,5 +11,7 @@ Description: Contains data and vignettes in support of the Ranges tutorial at
 	     variant calls. The other half of the tutorial
 	     was half open-ended discussion and is not represented here.
 License: GPL (>= 2)
-Suggests: BiocStyle, GenomicRanges
-Depends: IRanges (>= 2.11.12), VariantAnnotation (>= 1.23.6)
+Suggests: BiocStyle, GenomicRanges, GenomicAlignments, OrganismDbi,
+    rtracklayer, knitr, rmarkdown
+Depends: IRanges, VariantAnnotation
+VignetteBuilder: knitr
