@@ -1,2 +1,6 @@
 _minted-slides
 auto
+.Rproj.user
+.Rhistory
+.RData
+inst/doc
